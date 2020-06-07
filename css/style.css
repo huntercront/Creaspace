@@ -416,3 +416,35 @@ transition-property:background,box-shadow;
     transform: skewY(-20deg);
     z-index: 20;
 }
+
+/* last-coment */
+.last-coment{
+    background: #131922;
+    border-radius: 6px;
+    padding: 2rem 2rem 1.5rem 2rem ;
+}
+.last-coment-time{
+    color:#686D8C;
+}
+.last-coment-user{
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    margin-right:1.7rem;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.last-coment-user img{
+    width: 100%;
+}
+.last-coment-head{
+    margin-bottom: 1.5rem;
+}
+.term-gutter{
+    color: #FDD137;
+    font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.5;
+margin-left:0.2rem;
+}
