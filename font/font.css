@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.eot?uigz5g');
+  src:  url('../font/icomoon.eot?uigz5g#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?uigz5g') format('truetype'),
+    url('../font/icomoon.woff?uigz5g') format('woff'),
+    url('../font/icomoon.svg?uigz5g#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-admin_icon:before {
+  content: "\e900";
+}
+.icon-Arrow:before {
+  content: "\e901";
+}
+.icon-attach_icon:before {
+  content: "\e902";
+}
+.icon-download_icon:before {
+  content: "\e903";
+}
+.icon-Dropdown-list:before {
+  content: "\e904";
+}
+.icon-edit_icon:before {
+  content: "\e905";
+}
+.icon-exit_icon:before {
+  content: "\e906";
+}
+.icon-fem_icon:before {
+  content: "\e907";
+}
+.icon-friend:before {
+  content: "\e908";
+}
+.icon-ignore:before {
+  content: "\e909";
+}
+.icon-loupe_icon:before {
+  content: "\e90a";
+}
+.icon-mail_arrow_icon:before {
+  content: "\e90b";
+}
+.icon-mail_icon:before {
+  content: "\e90c";
+}
+.icon-mail_open_icon:before {
+  content: "\e90d";
+}
+.icon-man_icon:before {
+  content: "\e90e";
+}
+.icon-message_icon:before {
+  content: "\e90f";
+}
+.icon-music_icon:before {
+  content: "\e910";
+}
+.icon-profile_icon:before {
+  content: "\e911";
+}
+.icon-quote_icon:before {
+  content: "\e912";
+}
+.icon-settings_icon:before {
+  content: "\e913";
+}
+.icon-smile_icon:before {
+  content: "\e914";
+}
+.icon-video_icon:before {
+  content: "\e915";
+}
+.icon-view_icon:before {
+  content: "\e916";
+}
