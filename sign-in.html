@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./font/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Main page</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="container">
+                <div class="row">
+                    <div class="c-12">
+                        <div class="header-wrapper c-sb">
+                            <div class="header-inner c-s">
+                                <a href="#" class="header-logo"><img src="./img/Creaspace-logo.svg" alt=""></a>
+                                <div class="site-search">
+                                    <label for="site-search"><i class="icon-loupe_icon"></i></label>
+                                    <input type="search" class="p-16-medium" id="site-search" name="q"
+                                        autocomplete="off" aria-label="поиск по клипам" placeholder="поиск по клипам">
+                                </div>
+                            </div>
+                            <div class="user-sign">
+                                <a href="#" class="user-sign-up p-16-medium">Регистрация</a>
+                                <a href="#" class="user-sign-in h4">Войти</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="c-12">
+                        <div class="main-menu-inner">
+                            <ul class="navigation c-s">
+                                <li class="navigation-el"><a class="curent-page" href="#">Главная</a></li>
+                                <li class="navigation-el"><a href="#">Клипы</a></li>
+                                <li class="navigation-el"><a href="#">Конкурсы</a></li>
+                                <li class="navigation-el"><a href="#">Рейтинги</a></li>
+                                <li class="navigation-el"><a href="#">Форум</a></li>
+                                <li class="navigation-el"><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+  <section class="sign-in">
+      <div class="container">
+          <div class="row">
+              <div class="c-6">
+                  <form action="submit" class="sign-in-form">
+                      <h1 class="h1 sing-in--title">Регистрация</h1>
+                      <p class="p-12-semi-bold sing-in--requared">* все поля обязательные</p>
+                      <div class="input-line c-s">
+                          <label for="name" class="input-descr">
+                              <p class="input-descr--text p-16-medium">
+                                Имя
+                              </p>
+                              <span class="p-12-semi-bold input-descr--subdescr">будет отображаться везде</span>
+                          </label>
+                          <input type="text" id="name" class="large-input p-16-medium" required>
+                      </div>
+                      <!-- name-end -->
+                      <div class="input-line c-s">
+                        <label for="email" class="input-descr">
+                            <p class="input-descr--text p-16-medium">
+                                Email
+                            </p>
+                            <span class="p-12-semi-bold input-descr--subdescr">настоящий</span>
+                        </label>
+                        <input type="email" id="email" class="large-input p-16-medium" required>
+                    </div>
+                    <!-- email-end -->
+                    <div class="input-line c-s">
+                        <label for="password" class="input-descr">
+                            <p class="input-descr--text p-16-medium">
+                                Пароль
+                            </p>
+                            <span class="p-12-semi-bold input-descr--subdescr">6 символов или больше</span>
+                        </label>
+                        <input type="password" id="password" class="large-input p-16-medium" required>
+                    </div>
+                    <!-- password-end -->
+                    <div class="input-line c-s">
+                        <label for="confirm-password" class="input-descr">
+                            <p class="input-descr--text p-16-medium">
+                                Повторите пароль
+                            </p>
+                            <span class="p-12-semi-bold input-descr--subdescr">на всякий случай</span>
+                        </label>
+                        <input type="password" id="confirm-password" class="large-input p-16-medium" required>
+                    </div>
+                    <!-- confirm-password-end -->
+                    <div class="input-line c-s">
+                        <div class="input-descr single-descr">
+                            <p class="input-descr--text p-16-medium">
+                                Пол
+                            </p>
+                        </div>
+                        <div class="check-box-wrapper">
+                        <input type="radio" id="male" name="gender"
+                        checked>
+                 <label for="male">
+                    <div class="icon-wrapper c-c"><i class="icon-man_icon"></i></div></label>
+                </div>
+                <div class="check-box-wrapper">
+                    <input type="radio" id="female" name="gender"
+                    checked>
+             <label for="female">
+                 <div class="icon-wrapper c-c"><i class="icon-fem_icon"></i></div></label>
+            </div>
+
+                    </div>
+                    <!-- gender-choose-end -->
+                    <div class="input-line single-descr c-s">
+                        <label for="country" class="input-descr">
+                            <p class="input-descr--text p-16-medium">
+                                Страна
+                            </p>
+                        </label>
+                        <input type="text" id="country" class="small-input p-16-medium" autocomplete="off">
+                    </div>
+                    <input type="submit" class="primary-button h4 register-button" value="Зарегистрироваться">
+                  </form>
+              </div>
+              <div class="c-6">
+                  <div class="sign-in-img">
+                      <img src="./img/sign-ii-img.png" alt="sign-in image">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="devider"></div>
+            <div class="row">
+                <div class="footer-col-sm">
+                    <a href="#" class="footer-logo">
+                        <img src="./img/Creaspace-logo.svg" alt="">
+                    </a>
+                    <div class="footer-copiright p-12-semi-bold">
+                        © Creaspace.ru 2008-2020
+Копирование материалов без письменного разрешения авторов запрещено.
+                    </div>
+
+                </div>
+                <div class="footer-col-sm">
+                    <h4 class="footer-col-title h4">статистика портала</h4>
+                    <div class="stat-line s-end">
+                        <div class="stat-value stat-number">2463</div><div class="stat-name p-16-medium">клипов</div>
+                    </div>
+                    <div class="stat-line s-end">
+                        <div class="stat-value stat-number">763</div><div class="stat-name p-16-medium">авторов</div>
+                    </div>
+                    <div class="stat-line s-end">
+                        <div class="stat-value stat-number">38455</div><div class="stat-name p-16-medium">комментов</div>
+                    </div>
+                </div>
+                <div class="footer-col-sm">
+                    <h4 class="footer-col-title h4">конкурсы</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link p-16-medium">FreeCon 2019</a>
+                        <a href="#" class="footer-link p-16-medium">CreaCon 2019</a>
+                        <a href="#" class="footer-link p-16-medium">CreaRetro 2018</a>
+                        <a href="#" class="footer-link p-16-medium">CreaCon 2018</a>
+                    </div>
+                    
+                </div>
+                <div class="footer-col-sm">
+                    <h4 class="footer-col-title h4">лучшие клипы</h4>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link p-16-medium">за месяц</a>
+                        <a href="#" class="footer-link p-16-medium">за год</a>
+                        <a href="#" class="footer-link p-16-medium">за все время</a>
+                    </div>
+                    
+                </div>
+                <div class="footer-col-xl">
+                    <h4 class="footer-col-title h4">жанры</h4>
+                    <div class="footer-links">
+                        <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Авторское</a></div>
+                       <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Драма</a></div>
+                        <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Дэнс</a></div>
+                        <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Игра</a></div>
+                        <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Комедия</a></div>
+                        <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Мультфильм</a></div>
+
+                       <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Психоделика</a></div>
+                       <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Романтика</a></div>
+                        <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Трейлер</a></div>
+                       <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">ТВ сериал</a></div>
+                       <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Хоррор</a></div>
+                       <div class="footer-link-wrapper">
+                        <a href="#" class="footer-link p-16-medium">Экшн</a></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

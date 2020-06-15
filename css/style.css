@@ -102,6 +102,35 @@ line-height: 1.1;
 letter-spacing: 0.05em;
 }
 
+
+/* buttons */
+
+.primary-button{
+    background: linear-gradient(316.7deg, #0A4EFF -9.45%, #882AE6 102.23%, #882AE6 102.23%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+padding: 0.9rem 1.2rem;
+display: inline-block;
+color: #fff;
+border: none;
+outline: none;
+transition: 250ms ease-in;
+transition-property:background,box-shadow;
+cursor: pointer;
+}
+.primary-button:hover{
+    text-decoration: none;
+    background: linear-gradient(313.77deg, #0A4EFF -9.45%, #882AE6 102.23%, #882AE6 102.23%);
+box-shadow: 0px 4px 20px rgba(10, 78, 255, 0.56), inset 0px 0px 30px #882AE6;
+color:#fff;
+}
+.primary-button:active{
+    background: linear-gradient(313.77deg, #882AE6 -9.45%, #882AE6 102.23%, #882AE6 102.23%);
+    box-shadow: 0px 4px 20px rgba(10, 78, 255, 0.0), inset 0px 0px 30px rgba(136, 42, 230,0);
+    border: none;
+outline: none;
+}
+
 /* header */
 .header{
     position: fixed;
@@ -563,4 +592,94 @@ margin-left:0.2rem;
 .footer-copiright{
     color:#686D8C;
     margin-top: 1.2rem;
+}
+
+/* sign-in */
+.sign-in{
+    margin-top: 12rem;
+}
+.sign-in-form{
+    width: 100%;
+    display: block;
+    padding: 2.25rem;
+    background: #131922;
+}
+.input-descr--text{
+    margin-bottom: 0.35rem;
+}
+.single-descr .input-descr--text{
+    margin-bottom: 0rem;
+}
+.sing-in--requared{
+    color:#FDD137;
+}
+.input-descr--subdescr{
+    color:#686D8C;
+}
+.input-descr{
+    flex: 0 0 40%;
+    max-width: 40%;
+    width: 100%;
+}
+.input-line{
+    margin-top: 2rem;
+}
+.input-line input{
+    background: none;
+    outline: none;
+    border:none;
+    color: #fff;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #686D8C;
+    transition: 200ms ease-in;
+    transition-property: border;
+}
+.input-line input[type='password']{
+    -webkit-text-security:disc;
+}
+.input-line input[type='radio']{
+width: 0;
+height: 0;
+opacity: 1;
+}
+.input-line input:hover{
+    border-bottom: 1px solid #0A4EFF;
+}
+.input-line input:active,.input-line input:focus{
+    border-bottom: 1px solid #882AE6;
+}
+.large-input{
+    flex: 0 0 60%;
+    max-width: 60%;
+    width: 100%;
+}
+.small-input{
+    flex: 0 0 30%;
+    max-width: 30%;
+    width: 100%;
+}
+.icon-wrapper{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    border: 1px solid transparent;
+    transition: 200ms ease-in;
+    transition-property: border;
+    cursor: pointer;
+}
+.check-box-wrapper i{
+    font-size: 2.45rem;
+    color: #007bff;
+    transition: 200ms ease-in;
+    transition-property: color;
+}
+.check-box-wrapper input:checked + label i{
+    color:#FDD137;
+}
+.check-box-wrapper input:checked + label .icon-wrapper{
+    border:1px solid #FDD137;
+}
+.register-button{
+    width: 100%;
+    margin-top: 3rem;
 }
